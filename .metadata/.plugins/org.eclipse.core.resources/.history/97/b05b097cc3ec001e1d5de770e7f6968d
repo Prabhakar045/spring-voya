@@ -1,0 +1,13 @@
+package com.struts.action;
+
+import java.util.List;
+
+import com.struts.model.Student;
+
+public class StudentAction {
+
+	
+	private Student student;
+	
+	private List<String> hobbies;
+}

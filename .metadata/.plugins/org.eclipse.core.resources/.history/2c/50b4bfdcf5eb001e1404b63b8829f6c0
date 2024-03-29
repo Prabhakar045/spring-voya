@@ -1,0 +1,16 @@
+package com.struts.action;
+
+import com.struts.model.User;
+
+public class LoginAction {
+
+	private String userName;
+	private String city;
+	
+	public String execute() {
+		if(user.getUserName().equals("Prabhakar"))
+		  return "success";
+		return "error";
+	}
+	
+}

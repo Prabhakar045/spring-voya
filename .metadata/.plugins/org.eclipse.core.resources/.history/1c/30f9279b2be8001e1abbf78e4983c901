@@ -1,0 +1,10 @@
+
+server:
+ 
+ 
+spring:
+  security:
+    user:
+      name: prabhakar
+      password: pass 
+ 

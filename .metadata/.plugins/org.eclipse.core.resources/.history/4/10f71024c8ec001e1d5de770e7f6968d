@@ -1,0 +1,43 @@
+package com.struts.action;
+
+import java.util.Arrays;
+import java.util.List;
+
+import com.struts.model.Student;
+
+public class StudentAction {
+
+	//std object to populate the values 
+	private Student student;
+	
+	private List<String> hobbies;
+
+	public StudentAction() {
+		hobbies=Arrays.asList("sleeping","cricket");
+	}
+	
+	public Student getStudent() {
+		return student;
+	}
+
+	public String getStud() {
+		return null;
+	}
+	public void setStudent(Student student) {
+		this.student = student;
+	}
+
+	public List<String> getHobbies() {
+		return hobbies;
+	}
+
+	public void setHobbies(List<String> hobbies) {
+		this.hobbies = Arrays.asList("sleeping","cricket");
+	}
+	
+	public String showStudForm() {
+		return "none";
+		
+	}
+	
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\prabhakar.kattimani\Training\Springbootdemos\spring-insuranceapp-restmybatis"/>
+			<item value="C:\Users\prabhakar.kattimani\Training\Springbootdemos\spring-insuranceapp-rest"/>
+			<item value="C:\Users\prabhakar.kattimani\Training\Springbootdemos\spring-greetapp-rest"/>
+			<item value="C:\Users\prabhakar.kattimani\Training\Springbootdemos\spring-productapp-mybatis"/>
+			<item value="C:\Users\prabhakar.kattimani\Training\Springbootdemos\spring-bookapp-mybatis"/>
+			<item value="C:\Users\prabhakar.kattimani\Training\Springbootdemos\spring-boot-doctor"/>
+			<item value="C:\Users\prabhakar.kattimani\Training\Springbootdemos\spring-mvc-basic"/>
+			<item value="C:\Users\prabhakar.kattimani\Training\Springbootdemos\spring-bookapp-jdbc"/>
+			<item value="C:\Users\prabhakar.kattimani\Training\Springbootdemos\spring-bookapp-basic"/>
+			<item value="C:\Users\prabhakar.kattimani\Training\Springbootdemos\spring-boot-autowire"/>
+			<item value="C:\Users\prabhakar.kattimani\Downloads\springboot-basics"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\prabhakar.kattimani\Training\Springbootdemos"/>
+			<item value="C:\Users\prabhakar.kattimani\Training\strutsDemos"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.voya"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="struts-project"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="529"/>
+		<item key="x" value="601"/>
+		<item key="y" value="50"/>
+	</section>
+</section>

@@ -1,0 +1,36 @@
+package com.voya.doctorproject;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.voya.doctorproject.exception.IdNotFoundException;
+import com.voya.doctorproject.model.Doctor;
+import com.voya.doctorproject.service.IDoctorService;
+
+@SpringBootApplication(scanBasePackages = {"com.voya.doctorproject","com.example"})
+public class SpringBootDoctorApplication implements CommandLineRunner{
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootDoctorApplication.class, args);
+	}
+
+	@Autowired
+	IDoctorService iDoctorService;
+	@Override
+	public void run(String... args) throws Exception {
+		// TODO Auto-generated method stub
+		
+		
+		try {
+			int doctorId = 1;
+			Doctor doctor = iDoctorService.getById(doctorId);
+			System.out.println(doctor);
+		} catch (IdNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

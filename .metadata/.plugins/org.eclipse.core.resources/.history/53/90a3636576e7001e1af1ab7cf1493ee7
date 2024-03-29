@@ -1,0 +1,15 @@
+package com.insuranceapp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.insuranceapp.service.IInsuranceService;
+
+@RestController
+public class InsuranceController {
+
+	@Autowired
+	IInsuranceService insuranceService;
+	
+	public String 
+}

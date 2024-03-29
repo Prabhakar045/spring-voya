@@ -1,0 +1,40 @@
+package com.insuranceapp.repository;
+
+import java.util.List;
+
+import org.apache.ibatis.annotations.Delete;
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
+
+import com.insuranceapp.exception.InsuranceNotFoundException;
+import com.insuranceapp.model.Insurance;
+
+@Mapper
+public interface IInsuranceRepository {
+	
+	@Insert("insert into insurance(policy_name, brand,insurance_type,duration,premium) values(#{policyName},#{brand},#{insurance_type},#{duration},#{premium})")
+	void addInsurance(Insurance insurance);
+	
+	@Update("update insurance set price=#{price} where product_id= #{productId}")
+	void updateInsurance(int insuranceId, double premium);
+	
+	@Delete("delete from insurance where insurance_id= #{insuranceId}")
+	void deleteInsurance(int insuranceId);
+	
+	@Select("select product_name,product_id from product")
+	List<Insurance> getAll();
+	
+	@Select("select * from insurance where brand=#{brand}")
+	List<Insurance> getByBrand(String brand)throws InsuranceNotFoundException;
+	
+	@Select("select * from insurance where brand=#{brand} and insurance_type=#{type}")
+	List<Insurance> getByBrandAndType(String brand, String type);
+	
+	@Select("select * from insurance where insurance_type=#{type} and price=#{price}")
+	List<Insurance> getByTypeAndLesserPremium(String type, double premium);
+	
+	@Select("select * from insurance where insurance_id=#{insuranceId}")
+	Insurance getById(int insuranceId);
+}
